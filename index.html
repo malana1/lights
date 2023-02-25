@@ -5,49 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <title>workshop10</title>
+    <title>light</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <div class="box">
-                        <div class="box1">
-                           <h1>შეუკვეთე პროდუქტი დღესვე</h1>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-    </header>    
+    <header></header>
     <main>
-        <form class="shekveta" method="post" action="success.html">
-            <input type="text" name="სახელი" id="სახელი" placeholder="სახელი" required>
-            <input type="text" name="გვარი" id="გვარი" placeholder="გვარი">
-            <input type="number" name="ტელეფონის ნომერი" id="ტელეფონის ნომერი" placeholder="ტელეფონის ნომერი">
-            <div class="box2">გთხოვთ მიუთითოთ ზუსტი მისამართი</div>
-            <textarea name="გთხოვთ მიუთითოთ ზუსტი მისამართი" id="გთხოვთ მიუთითოთ ზუსტი მისამართი" cols="30" rows="10"></textarea>
-            <div class="box1">  
-            <label for="box">აირჩიეთ გადახდის მეთოდი</label></div>
-             <div class="box">
-            <input type="radio" name="box" id="box">
-            <label for="box">ბარათით გადახდა</label>
-            <input type="radio" name="metodi" id="metodi">
-            <label for="metodi">ქეშით გადახდა</label>
+        <div class="naturacontainer flex" >
 
+           <p class="button" onclick="anteba()">ON</p> 
+           <div class="natura">
+            <img src="img/off.png" alt="off bulb" id="natura">
+            <p class="button" onclick="chaqroba()">OFF</p>
+           </div>
+          
         </div>
-
-
-
-            <input type="submit" value="შეკვეთის გაფორმება">
-        </form>
-
-
-       
-            
+        <p class="universal"onclick ="universal()" id="universal"> ანთება </p>
     </main>
     <footer></footer>
+    <script src="js/natura.js"></script>
     
 </body>
 </html>
